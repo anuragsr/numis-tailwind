@@ -1,6 +1,6 @@
-# Webpack 5 + Tailwind Starter (with Sass support)
+# Flashy Frontend
 
-Based on [this starter](https://github.com/taniarascia/webpack-boilerplate)
+Edgy FE design made with Tailwind CSS
 
 ## Author
 [Anurag Srivastava](https://www.envisagecyberart.in)
