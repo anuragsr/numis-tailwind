@@ -1,4 +1,4 @@
-# Flashy Frontend
+# Numis
 
 Edgy FE design made with Tailwind CSS
 
