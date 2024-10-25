@@ -4,3 +4,6 @@ import 'flowbite'
 
 // Test import of tailwind
 import '@/styles/tw.css'
+
+// initFlowbite()
+
