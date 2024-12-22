@@ -29,7 +29,7 @@
             ></path>
           </svg>
           <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-white"
-            >Numis</span
+            >Numitron</span
           >
         </a>
         <div class="flex items-center md:order-2">
@@ -169,17 +169,50 @@
       </div>
     </nav>
 
-    <!--<h1 class="bg-blue-500 text-3xl font-bold underline p-4 font-Inter">
-      Numis with tailwindCSS
-    </h1>
-    <h1 class="bg-amber-500 text-3xl font-bold underline p-4 font-Inter">
-      Will update this page to use latest tailwind features
-    </h1>-->
-    <section class="h-[100vh] w-full overflow-hidden">
-      <video muted loop autoplay>
-        <source src="bg.mp4" type="video/mp4" />
-      </video>
-      <div class="ctn-video hw-full"></div>
+    <section class="h-[100vh] w-full relative z-[0]">
+      <div class="ctn-video hw-full absolute z-[0] overflow-hidden">
+        <video muted loop autoplay>
+          <source src="bg.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="ctn-overlay hw-full grid grid-cols-8 grid-rows-4 gap-0 absolute z-[1]">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+        <div>04</div>
+        <div>05</div>
+        <div>06</div>
+        <div>05</div>
+        <div>06</div>
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+        <div>04</div>
+        <div>06</div>
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+        <div>04</div>
+        <div>04</div>
+        <div>02</div>
+        <div>03</div>
+        <div>04</div>
+        <div>04</div>
+        <div>02</div>
+        <div>03</div>
+        <div>04</div>
+        <div>04</div>
+        <div>04</div>
+        <div>04</div>
+        <div>02</div>
+        <div>03</div>
+        <div>04</div>
+        <div>04</div>
+      </div>
+      <div class="ctn-text hw-full flex-center flex-col absolute z-[2]">
+        <h1 class="title text-7xl">Crypto Text</h1>
+        <h1 class="title-2 text-7xl">Crypto Text</h1>
+      </div>
       <!--<div
         class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
       >

@@ -51,6 +51,7 @@
     "url": "git@github.com:anuragsr/webpack5-starter"
   },
   "dependencies": {
-    "flowbite": "^2.5.2"
+    "flowbite": "^2.5.2",
+    "gsap": "^3.12.5"
   }
 }
